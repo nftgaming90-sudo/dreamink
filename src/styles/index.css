@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border;
+    }
+
+    body {
+        @apply bg-darker text-gray-200 font-sans min-h-screen;
+        background: linear-gradient(135deg, #08080D 0%, #1A0F2E 100%);
+    }
+}
+
+@layer components {
+    .glass {
+        @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+    }
+
+    .btn-neon {
+        @apply bg-purple-neon/90 hover:bg-purple-neon text-white font-medium py-3 px-6 rounded-xl transition-all duration-300 active:scale-95;
+        box-shadow: 0 0 15px rgba(176, 0, 255, 0.5);
+    }
+
+    .btn-neon:hover {
+        box-shadow: 0 0 20px rgba(176, 0, 255, 0.7);
+    }
+
+    .input-glass {
+        @apply glass w-full px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-neon/50;
+    }
+}
