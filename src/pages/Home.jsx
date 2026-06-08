@@ -45,9 +45,9 @@ export default function Home() {
         <div className="bg-[#120E1B] min-h-screen text-white px-4 py-6 max-w-md mx-auto">
 
             <div className="mb-8 space-y-2">
-                <h1 className="text-[28px] font-bold text-white">AI Tattoo Generator</h1>
+                <h1 className="text-[28px] font-bold text-white">DreamInk Artistry</h1>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                    Turn your ideas into stunning tattoo designs with the help of AI. Create unique artwork in seconds.
+                    Koleksi karya seni tato terbaik, desain kustom, dan ide kreatif yang dibuat dengan penuh dedikasi dan detail sempurna.
                 </p>
             </div>
 
